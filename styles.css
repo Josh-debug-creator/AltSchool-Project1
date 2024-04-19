@@ -1,0 +1,70 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    height:100vh;
+width: 100vw;
+
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+#lets-talk{
+    background-color: C9F31D;
+    padding: 20px;
+}
+#lets-talk p{
+    font-size: 20px;
+}
+.section-1{
+
+background-image: url(Images/banner-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+color: white;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    margin: 20px 0;
+    background-color: white;
+}
+.section-1-flex{
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+}
+.sliding-div{
+    background-color: rgb(201,243,29);
+    height: 40px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+.section-1-images{
+    display: flex;
+    align-items: center;
+}
+.section-2{
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+.portfolio{
+    
+    
+   
+}
