@@ -1018,8 +1018,8 @@ font-size:15px;
     font-size:24px;
   }
   .recent-post{
-position: relative;
-left: 0;
+float:left
+
   }
   .section-9-content{
     display: flex;
@@ -1125,11 +1125,10 @@ padding:  10px;
     width: 100%;
   }
 
-  .section-10{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  
+  .section-10a{
+    margin-right: auto;
+    padding-left:20px;
   }
   .section-10b{
     display: flex;
@@ -1137,7 +1136,7 @@ padding:  10px;
     justify-content: space-between;
     flex-direction: column;
  margin: auto;
-
+width: 100%;
   }
   .section-10b-content{
     display: flex;
@@ -1671,11 +1670,20 @@ footer{
       }
       .flex-div{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: flex-start;
       }
       .recent-post{
         width:40%
+      }
+      .section-10{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+      section-10b{
+        width: 80%;
       }
 }
 
